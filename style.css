@@ -39,6 +39,8 @@ body {
 .screen1 {
   display: grid;
   text-align: center;
+  border-radius: .5rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
   width: 42.8rem;
   height: 42.4rem;
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
@@ -67,6 +69,8 @@ p {
 .screen2 {
   display: grid;
   text-align: center;
+  border-radius: .5rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
   width: 42.8rem;
   height: 56.4rem;
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
@@ -90,6 +94,8 @@ p {
 
 button {
   font-family: "DM Sans", sans-serif;
+  border: none;
+  border-radius: .4rem;
   color: var(--color--title--white);
   background-color: var(--color--bg--orange);
   width: 17.4rem;
