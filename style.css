@@ -8,6 +8,10 @@
 
 :root {
   font-size: 62.5%;
+  --color--title--purple: #34355B;
+  --color--title--black: #000000;
+  --color--title--white: #FFFFFF;
+  --color--bg--orange: #FF9500;
 }
 
 body {
@@ -42,24 +46,29 @@ body {
 
 h1 {
   font-family: "Montserrat", sans-serif;
+  color: var(--color--title--purple);
   font-size: 2.4rem;
   font-weight: 700;
 }
 
 p {
   font-family: "DM Sans", sans-serif;
+  color: var(--color--title--purple);
   font-size: 1.5rem;
   font-weight: 400;
 }
 
 .paragraph-container p {
   font-family: "Dancing Script", cursive;
+  color: var(--color--title--black);
   font-size: 2.4rem;
   font-weight: 400;
 }
 
 button {
   font-family: "DM Sans", sans-serif;
+  color: var(--color--title--white);
+  background-color: var(--color--bg--orange);
   font-size: 1.5rem;
   font-weight: 700;
 }
