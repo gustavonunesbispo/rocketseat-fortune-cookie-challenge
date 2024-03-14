@@ -47,16 +47,18 @@ body {
   background-color: #FFFFFF;
 }
 
-h1 {
+.screen1 h1 {
   font-family: "Montserrat", sans-serif;
   color: var(--color--title--purple);
+  margin-bottom: 1.4rem;
   font-size: 2.4rem;
   font-weight: 700;
 }
 
-p {
+.screen1 p {
   font-family: "DM Sans", sans-serif;
   color: var(--color--title--purple);
+  margin-bottom: 2rem;
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -77,12 +79,28 @@ p {
   background-color: #FFFFFF;
 }
 
+.screen2 h1 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color--title--purple);
+  margin-bottom: 1.7rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.screen2 p {
+  font-family: "DM Sans", sans-serif;
+  color: var(--color--title--purple);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 .paragraph-container p {
   font-family: "Dancing Script", cursive;
   color: var(--color--title--black);
   background-color: var(--color--bg--gray);
   box-shadow: .2rem .2rem .2rem rgba(85, 85, 85, 0.5);
   padding: 1rem;
+  margin-bottom: 6rem;
   font-size: 2.4rem;
   font-weight: 400;
 }
@@ -90,6 +108,7 @@ p {
 .screen2 img {
   width: 30rem;
   height: 11.4rem;
+  margin-bottom: 6rem;
 }
 
 button {
