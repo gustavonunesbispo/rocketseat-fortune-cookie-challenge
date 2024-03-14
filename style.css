@@ -12,6 +12,7 @@
   --color--title--black: #000000;
   --color--title--white: #FFFFFF;
   --color--bg--orange: #FF9500;
+  --color--bg--orange---300: #dd8305;
   --color--bg--gray: #E4EDF1;
 }
 
@@ -66,6 +67,12 @@ body {
 .screen1 img {
   width: 30rem;
   height: 20rem;
+  transition: .3s ease-in-out;
+}
+
+.screen1 img:hover {
+  transform: rotate(-10deg);
+  cursor: pointer;
 }
 
 .screen2 {
@@ -103,6 +110,16 @@ body {
   margin-bottom: 6rem;
   font-size: 2.4rem;
   font-weight: 400;
+  animation: slideFromTop .8s ease-in-out forwards;
+}
+
+@keyframes slideFromTop {
+  from {
+    transform: translateY(200%) scale(0);
+  }
+  to {
+    transform: translateY(0%) scale(1);
+  }
 }
 
 .screen2 img {
@@ -121,6 +138,13 @@ button {
   height: 5.2rem;
   font-size: 1.5rem;
   font-weight: 700;
+  transition: .3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: var(--color--bg--orange---300);
+  cursor: pointer;
 }
 
 .hide {
