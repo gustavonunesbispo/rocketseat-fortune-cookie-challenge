@@ -29,6 +29,7 @@ let cookieFortunePhrase = document.querySelector("#cookieFortunePhrase")
 
 imgOpenCookie.addEventListener('click', handleClick)
 btnOpenAnother.addEventListener('click', handleClick)
+document.addEventListener('keydown', handleClickEnter)
 
 function handleClick(event) {
   cookieFortunePhrase.innerHTML = selectRandomPhrase();
@@ -43,4 +44,10 @@ function selectRandomPhrase() {
 function toggleScreen() {
   screen1.classList.toggle("hide")
   screen2.classList.toggle("hide")
+}
+
+function handleClickEnter(e) {
+  if(e.key == 'Enter' && screen2.classList.contains('hide')) {
+    handleClick()
+  }
 }
